@@ -1,0 +1,185 @@
+/* colors
+#2980b9 - Blue
+*/
+
+body {
+  position: relative;
+  margin-top: 105px;
+}
+
+body .title{
+  padding: 35px;
+  color: #2980b9;
+}
+
+/*    NAVBAR      */
+.navbar{
+  box-shadow:2px 2px 5px #1abc9c;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item{
+  font-size: 1.2rem;
+  padding-right: 20px;
+}
+
+.navbar h3{
+  color: #2980b9;
+}
+
+/*Home */
+#home{
+  background: url('img/officemain2.png');
+  min-height: 600px;
+  width:100%;
+}
+
+
+/*About*/
+#about strong{
+  color: #2980b9;
+}
+
+#about .fa-globe{
+  font-size: 5em;
+  color: #1abc9c;
+}
+
+#subabout{
+  margin-top: 35px;
+  /*background-color: #ecf0f1;*/
+}
+
+#subabout h2{
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+#subabout .fa{
+  font-size: 5em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color:#ecf0f1;
+  }
+
+  #subabout h4{
+    color: #1abc9c;
+  }
+
+/* SERVICES */
+
+#services .col-lg-4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#services .card{
+  margin: 0 auto;
+  float: none;
+}
+#services .card-img-top{
+  box-shadow:0px 0px 5px #1abc9c;
+}
+
+/*    Pricing    */
+#pricing{
+  padding-bottom: 40px;
+}
+#pricing .card{
+  border: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow:0px 0px 5px #1abc9c;
+}
+
+#pricing .text-xs-center{
+  padding: 10px;
+}
+
+#pricing .card-header{
+  background-color: #fff;
+  color: #95a5a6;
+}
+#pricing .card-block{
+
+}
+#pricing .card-title{
+  padding-top: 15px;
+}
+#pricing .list-group{
+  border: none;
+}
+#pricing .list-group-item{
+  border: none;
+}
+#pricing .button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+/*   Contact     */
+#contact{
+    background: url('img/officemain2.png');
+}
+
+.alert2{
+ text-align: center;
+ padding: 10px;
+ background: #1abc9c;
+ color:#fff;
+ margin-bottom: 10px;
+ display:none;
+}
+
+ .alert{
+  text-align: center;
+  padding: 10px;
+  background: #1abc9c;
+  color:#fff;
+  margin-bottom: 10px;
+  display:none;
+}
+
+#contact .fa{
+  font-size: 3em;
+  padding: 10px;
+}
+
+/*     MAIN INFO PAGE     */
+#infopage .jumbotron{
+    background: url('img/cityblur.png');
+}
+#infopage .textarea{
+  padding-bottom: 30px;
+}
+
+/*    Social Media Page   */
+#smpage .jumbotron{
+    background: url('img/socialmediapage.png');
+}
+
+/*   Ren Pal Services   */
+#penpalpage .jumbotron{
+    background: url('img/penpalpage.png');
+}
+
+/*    Release Recources    */
+#releasepage .jumbotron{
+    background: url('img/release.png');
+}
+
+/*   Product Sales   */
+#productpage .jumbotron{
+    background: url('img/productpage.png');
+}
+
+/*   Photo page   */
+#photopage .jumbotron{
+    background: url('img/photopage.png');
+}
+
+/*   email page   */
+#emailpage .jumbotron{
+    background: url('img/emailpage.png');
+}

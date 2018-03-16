@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://use.fontawesome.com/2aaebdc6df.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Photo Services-Inmate Secretary</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/navlogo.png" height="50" width="50" alt="Logo">
+          <h3 class="d-inline align-middle">Inmate Secretary</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link active">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="pricing.html" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of Nav-->
+    <!-- PAy Pal Modal-->
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Select your Plan</h1>
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="ZY9PLZH4WCSF2">
+      <table>
+        <tr><td><input type="hidden" name="on0" value="Memberships">Memberships</td></tr><tr><td>
+          <select name="os0">
+            <option value="Basic">Basic $24.99 USD</option>
+            <option value="Silver">Silver $49.99 USD</option>
+            <option value="Gold">Gold $99.99 USD</option>
+          </select>
+        </td></tr>
+      </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      </div>
+    </div>
+
+    <!-- Start of Header-->
+    <section id="photopage">
+      <div class="jumbotron">
+        <h1 class="display-3 mt-5 pt-5 text-white">Get the images you want to see.</h1>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="lead">Learn how we offer images, pictures, and other keepsakes.</h2>
+          </div>
+          <div class="col-sm-12 textarea">
+            <p>Inmate Secretary offers unique photo services. If your loved one requests photos we can fulfill this as long as it abides by installation policies. All photos will be delivered in a discreet manner.</p>
+            <p>We will send the client photos from any of several categories of pictures. We are not liable for facility rejections.</p>
+            <br>
+            <p class="lead">If you are interested in buying this service for a loved one currently incarcerated, purchase a payment plan through the button below.</p>
+              <a href="#"  id="myBtn" class="btn btn-secondary buybtn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark text-white py-5 text-center">
+      <p>Copyright © All Rights Reserved.</p>
+    </footer>
+    <!--End of footer-->
+
+
+        <!-- Optional JavaScript -->
+        <script src="js/pay.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+      </body>
+    </html>

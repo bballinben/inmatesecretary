@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Pricing-Inmate Secretary</title>
+    <script src="https://use.fontawesome.com/2aaebdc6df.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/navlogo.png" height="50" width="50" alt="Logo">
+          <h3 class="d-inline align-middle">Inmate Secretary</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="pricing.html" class="nav-link active">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+  <!-- PAy Pal Modal-->
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1>Select your Plan</h1>
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="ZY9PLZH4WCSF2">
+    <table>
+      <tr><td><input type="hidden" name="on0" value="Memberships">Memberships</td></tr><tr><td>
+        <select name="os0">
+          <option value="Basic">Basic $24.99 USD</option>
+          <option value="Silver">Silver $49.99 USD</option>
+          <option value="Gold">Gold $99.99 USD</option>
+        </select>
+      </td></tr>
+    </table>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    </div>
+  </div>
+
+
+
+    <!--Pricing-->
+   <section id="pricing">
+     <h1 class="display-3 text-center title">Pricing</h1>
+     <div class="container">
+     <div class="row flex-items-xs-middle flex-items-xs-center">
+
+       <!-- Table #1  -->
+       <div class="col-xs-12 col-lg-4">
+         <div class="card text-xs-center">
+           <div class="card-header">
+             <h3 class="display-4 text-center"><span class="currency">$</span>25<span class="period">/Year</span></h3>
+           </div>
+           <div class="card-block">
+             <h4 class="card-title text-center">
+               Basic Plan
+             </h4>
+             <ul class="list-group lead">
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Pen Pal Services</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Email Management</li>
+               <li class="list-group-item text-muted"> Social Media Management</li>
+               <li class="list-group-item text-muted"> Photo Services</li>
+               <li class="list-group-item text-muted"> Release Recources</li>
+               <li class="list-group-item text-muted"> Product Sales</li>
+             </ul>
+             <div class="text-center button">
+               <a href="#" id="myBtn" class="btn btn-secondary">Choose Plan</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+       <!-- Table #2  -->
+       <div class="col-xs-12 col-lg-4">
+         <div class="card text-xs-center">
+           <div class="card-header">
+             <h3 class="display-4 text-center"><span class="currency">$</span>50<span class="period">/Year</span></h3>
+           </div>
+           <div class="card-block">
+             <h4 class="card-title text-center">
+               Silver Plan
+             </h4>
+                <ul class="list-group lead">
+                  <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Pen Pal Services</li>
+                  <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Email Management</li>
+                  <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Social Media Management</li>
+                  <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Photo Services</li>
+                  <li class="list-group-item text-muted"> Release Recources</li>
+                  <li class="list-group-item text-muted"> Product Sales</li>
+                </ul>
+               <div class="text-center button">
+                 <a href="#" id="myBtn2" class="btn btn-secondary">Choose Plan</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <!-- Table #3  -->
+       <div class="col-xs-12 col-lg-4">
+
+         <div class="card text-xs-center">
+           <div class="card-header">
+             <h3 class="display-4 text-center"><span class="currency">$</span>100<span class="period">/Year</span></h3>
+           </div>
+           <div class="card-block">
+             <h4 class="card-title text-center">
+               Gold Plan
+             </h4>
+             <ul class="list-group lead">
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Pen Pal Services</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Email Management</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Social Media Management</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Photo Services</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Release Recources</li>
+               <li class="list-group-item"><i class="fa fa-check-square-o" aria-hidden="true"></i> Product Sales</li>
+             </ul>
+             <div class="text-center button">
+             <a href="#" id="myBtn3" class="btn btn-secondary">Choose Plan</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+   </div>
+   </section>
+     <!--End of Pricing-->
+    <!--footer-->
+    <footer class="bg-dark text-white py-5 text-center">
+      <p>Copyright © All Rights Reserved.</p>
+    </footer>
+    <!--End of footer-->
+    <!-- Optional JavaScript -->
+    <script src="js/pay.js"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
